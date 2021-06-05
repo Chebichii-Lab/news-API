@@ -2,30 +2,32 @@
 {% import 'macros.html' as macro %}
 
 {% block content%}
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 <div class="container">
 		<!-- Business News Section  -->
-        <h3> Top Business News Sources</h3>
+        <h3 style="font-family: 'Dancing Script', cursive; font-size:50px;"> Top Business News Sources</h3>
         <hr>
 
         {{ macro.displaySourceList(sources)}}
 
         <!-- Business News Section  -->
          
-        <h3> Top Technology News Sources</h3>
+        <h3 style="font-family: 'Dancing Script', cursive; font-size:50px;"> Top Technology News Sources</h3>
         <hr>
 
         {{ macro.displaySourceList(technology_sources)}}
 
         <!-- Entertainment News Section  -->
          
-        <h3> Top Entertainment News Sources</h3>
+        <h3 style="font-family: 'Dancing Script', cursive; font-size:50px;"> Top Entertainment News Sources</h3>
         <hr>
 
         {{ macro.displaySourceList(entertainment_sources)}}
 
         <!-- Entertainment News Section  -->
          
-        <h3> Top Sports News Sources</h3>
+        <h3 style="font-family: 'Dancing Script', cursive; font-size: 50px;"> Top Sports News Sources</h3>
         <hr>
 
         {{ macro.displaySourceList(sports_sources)}}
