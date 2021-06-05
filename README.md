@@ -15,3 +15,8 @@ On your local systems;
 3. Pip
 4. Virtual Environment(venv)
 5. A text editor
+
+### Project SetUp
+1. Git clone https://github.com/Chebichii-Lab/news-Api.git
+2. Navigate to the folder using terminal
+3. Run the file
