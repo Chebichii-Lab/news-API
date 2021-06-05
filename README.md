@@ -26,3 +26,9 @@ In your teminal, run the following commands;
 
 $ chmod a+x start.sh
 $ ./start.sh
+
+### Technologies Used
+1. Python3.8
+2. Git
+3. Bootstrap
+4. Flask
