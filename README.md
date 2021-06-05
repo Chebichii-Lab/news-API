@@ -20,3 +20,9 @@ On your local systems;
 1. Git clone https://github.com/Chebichii-Lab/news-Api.git
 2. Navigate to the folder using terminal
 3. Run the file
+
+## Running The Application
+In your teminal, run the following commands;
+
+$ chmod a+x start.sh
+$ ./start.sh
