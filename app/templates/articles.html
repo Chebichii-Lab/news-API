@@ -1,9 +1,11 @@
 {% extends 'base.html'%}
 {% block content%}
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
 <div class="container">
 
 	<!-- Popular movie section  -->
-        <h3> Top Headlines</h3>
+        <h3 style="font-family: 'Dancing Script', cursive; font-size:50px;"> Top Headlines</h3>
         {% for article_row in articles | batch(4)%}
 
 	        <div class="row">

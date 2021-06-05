@@ -4,30 +4,38 @@
 {% block content%}
 <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
-<div class="container" style="font-size:25px;">
+<style>
+    #background{
+       background-image: url('../static/tiziano-brignoli-aTXxr0gfQzg-unsplash.jpg'); 
+       background-position: center;
+       background-size: cover;
+       background-repeat: no-repeat;
+    }
+</style>
+<div class="container" style="font-size:25px;" id="background">
 		<!-- Business News Section  -->
-        <h3 style="font-family: 'Dancing Script', cursive; font-size:50px;"> Top Business News Sources</h3>
+        <h3 style="font-family: 'Dancing Script', cursive; font-size:50px; color:white;"> Top Business News Sources</h3>
         <hr>
 
         {{ macro.displaySourceList(sources)}}
 
         <!-- Business News Section  -->
          
-        <h3 style="font-family: 'Dancing Script', cursive; font-size:50px;"> Top Technology News Sources</h3>
+        <h3 style="font-family: 'Dancing Script', cursive; font-size:50px; color:white;"> Top Technology News Sources</h3>
         <hr>
 
         {{ macro.displaySourceList(technology_sources)}}
 
         <!-- Entertainment News Section  -->
          
-        <h3 style="font-family: 'Dancing Script', cursive; font-size:50px;"> Top Entertainment News Sources</h3>
+        <h3 style="font-family: 'Dancing Script', cursive; font-size:50px; color: white;"> Top Entertainment News Sources</h3>
         <hr>
 
         {{ macro.displaySourceList(entertainment_sources)}}
 
         <!-- Entertainment News Section  -->
          
-        <h3 style="font-family: 'Dancing Script', cursive; font-size: 50px;"> Top Sports News Sources</h3>
+        <h3 style="font-family: 'Dancing Script', cursive; font-size: 50px; color: white;"> Top Sports News Sources</h3>
         <hr>
 
         {{ macro.displaySourceList(sports_sources)}}
