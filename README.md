@@ -32,3 +32,6 @@ $ ./start.sh
 2. Git
 3. Bootstrap
 4. Flask
+
+# Live Site
+View [live](https://newsapp24.herokuapp.com/)
